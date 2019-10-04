@@ -1,0 +1,82 @@
+body {
+    background: #eeeeee;
+    color: #696969;
+    margin: 24px;
+    font-weight: bold;
+    font-family: 'VT323', monospace;
+    font-size: 24px;
+}
+button {
+    font-family: 'VT323', monospace;
+    font-size: 18px;
+    background-image: linear-gradient(#F6A7C1, #F1CDB0);
+    
+}
+img {
+    background-color: #eeeeee
+}
+
+
+.intro, #info {
+    /* background-image: linear-gradient(to bottom, #fce38a, #f54ea2); */
+    text-align: center;
+    color: burlywood;
+    font-weight: bolder;
+}
+
+#increaseH {
+    /* background-color: #3778C2; */
+    width: 28px;
+    display: inline-block;
+    height: 0px;
+}
+#increaseP {
+    /* background-color: #3778C2; */
+    width: 28px;
+    display: inline-block;
+    height: 0px;
+}
+#increaseS {
+    /* background-color: #3778C2; */
+    width: 28px;
+    display: inline-block;
+    height: 0px;
+}
+#progressBar {
+    display: inline-block;
+    width: calc(60% -28px);
+    display: inline-block;
+}
+
+#stats {
+    text-align: center;
+}
+
+#game {
+    background-color: #ffd;
+}
+
+#dead {
+    text-align: center
+}
+
+
+progress {
+    border: none;
+    /* width: 400px;
+    height: 60px; */
+    background: crimson;
+  }
+  
+  progress::-webkit-progress-value {
+    background-color: #3778C2;
+  }
+  
+  progress::-webkit-progress-bar {
+    background-color: deeppink;
+  }
+  /* progress ::-webkit-progress-value {background-color: deeppink;}
+  
+  progress ::-webkit-progress-bar #increasingAge {
+    background-color: green;
+  } */
